@@ -9,7 +9,7 @@ def ccsds_crc16(data : bytearray):
 
 
     for byte in data:
-        print(hex(crc & 0xFFFF))
+        # print(hex(crc & 0xFFFF))
         crc ^= byte << 8
         for _ in range(0,8):
             if (crc & 0x8000):
