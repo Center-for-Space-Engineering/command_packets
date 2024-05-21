@@ -1,0 +1,811 @@
+'010':
+  Active: 1
+  Channels: 39
+  Delay: 50
+  G. Rate: 2000
+  G. Size bytes: 66
+  Granule count: 1
+  Mnemonic: STT
+  PKT Period: 50
+  PKT Size bytes: 81
+  Packet: 0
+  Rate (Bits/s): 12.96
+  granule definition:
+    0ADC0:
+      Order: 3.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    0ADC1:
+      Order: 4.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    0ADC2:
+      Order: 5.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    0ADC3:
+      Order: 6.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    0ADCT:
+      Order: 7.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    1ADC0:
+      Order: 8.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    1ADC1:
+      Order: 9.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    1ADC2:
+      Order: 10.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    1ADC3:
+      Order: 11.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    1ADCT:
+      Order: 12.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    2ADC0:
+      Order: 13.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    2ADC1:
+      Order: 14.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    2ADC2:
+      Order: 15.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    2ADC3:
+      Order: 16.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    2ADCT:
+      Order: 17.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    3ADC0:
+      Order: 18.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    3ADC1:
+      Order: 19.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    3ADC2:
+      Order: 20.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    3ADC3:
+      Order: 21.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    3ADCT:
+      Order: 22.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    4ADC1:
+      Order: 24.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    4ADC2:
+      Order: 25.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    4ADCT:
+      Order: 27.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    GPSM:
+      Order: 2.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 32.0
+    GPSW:
+      Order: 1.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 16.0
+    PAC:
+      Order: 28.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    PCFC:
+      Order: 30.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    PHFC:
+      Order: 29.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD1:
+      Order: 31.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD10:
+      Order: 40.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD11:
+      Order: 41.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD2:
+      Order: 32.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD3:
+      Order: 33.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD4:
+      Order: 34.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD5:
+      Order: 35.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD6:
+      Order: 36.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD7:
+      Order: 37.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD8:
+      Order: 38.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD9:
+      Order: 39.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+'011':
+  Active: 0
+  Channels: 1
+  Delay: 0
+  G. Rate: 100
+  G. Size bytes: 3
+  Granule count: 100
+  Mnemonic: FPP1
+  PKT Period: 1
+  PKT Size bytes: 315
+  Packet: 1
+  Rate (Bits/s): 2520.0
+  granule definition:
+    V1S:
+      Order: 1.0
+      Packet: 1
+      Rate: 100
+      Word Length (bits): 20.0
+'012':
+  Active: 0
+  Channels: 2
+  Delay: 0
+  G. Rate: 100
+  G. Size bytes: 5
+  Granule count: 100
+  Mnemonic: FPP2
+  PKT Period: 1
+  PKT Size bytes: 515
+  Packet: 2
+  Rate (Bits/s): 4120.0
+  granule definition:
+    V1S:
+      Order: 1.0
+      Packet: 2
+      Rate: 100
+      Word Length (bits): 20.0
+    V2S:
+      Order: 2.0
+      Packet: 2
+      Rate: 100
+      Word Length (bits): 20.0
+'013':
+  Active: 0
+  Channels: 3
+  Delay: 0
+  G. Rate: 100
+  G. Size bytes: 8
+  Granule count: 100
+  Mnemonic: FPP3
+  PKT Period: 1
+  PKT Size bytes: 815
+  Packet: 3
+  Rate (Bits/s): 6520.0
+  granule definition:
+    V1S:
+      Order: 1.0
+      Packet: 3
+      Rate: 100
+      Word Length (bits): 20.0
+    V2S:
+      Order: 2.0
+      Packet: 3
+      Rate: 100
+      Word Length (bits): 20.0
+    V3S:
+      Order: 3.0
+      Packet: 3
+      Rate: 100
+      Word Length (bits): 20.0
+'014':
+  Active: 1
+  Channels: 4
+  Delay: 0
+  G. Rate: 100
+  G. Size bytes: 10
+  Granule count: 100
+  Mnemonic: FPP4
+  PKT Period: 1
+  PKT Size bytes: 1015
+  Packet: 4
+  Rate (Bits/s): 8120.0
+  granule definition:
+    V1S:
+      Order: 1.0
+      Packet: 4
+      Rate: 100
+      Word Length (bits): 20.0
+    V2S:
+      Order: 2.0
+      Packet: 4
+      Rate: 100
+      Word Length (bits): 20.0
+    V3S:
+      Order: 3.0
+      Packet: 4
+      Rate: 100
+      Word Length (bits): 20.0
+    V4S:
+      Order: 4.0
+      Packet: 4
+      Rate: 100
+      Word Length (bits): 20.0
+'015':
+  Active: 1
+  Channels: 1
+  Delay: 0
+  G. Rate: 100
+  G. Size bytes: 3
+  Granule count: 100
+  Mnemonic: FBP
+  PKT Period: 1
+  PKT Size bytes: 315
+  Packet: 5
+  Rate (Bits/s): 2520.0
+  granule definition:
+    DCP:
+      Order: 1.0
+      Packet: 5
+      Rate: 100
+      Word Length (bits): 24.0
+'016':
+  Active: 1
+  Channels: 3
+  Delay: 100
+  G. Rate: 2000
+  G. Size bytes: 5
+  Granule count: 1052
+  Mnemonic: SLP
+  PKT Period: 100
+  PKT Size bytes: 5275
+  Packet: 6
+  Rate (Bits/s): 422.0
+  granule definition:
+    LPC:
+      Order: 1.0
+      Packet: 6
+      Rate: 2000
+      Word Length (bits): 19.0
+    LPG:
+      Order: 2.0
+      Packet: 6
+      Rate: 2000
+      Word Length (bits): 1.0
+    VS1:
+      Order: 3.0
+      Packet: 6
+      Rate: 2000
+      Word Length (bits): 20.0
+'017':
+  Active: 1
+  Channels: 3
+  Delay: 1
+  G. Rate: 2000
+  G. Size bytes: 5
+  Granule count: 32
+  Mnemonic: FLP
+  PKT Period: 1
+  PKT Size bytes: 175
+  Packet: 7
+  Rate (Bits/s): 1400.0
+  granule definition:
+    LPC:
+      Order: 1.0
+      Packet: 7
+      Rate: 2000
+      Word Length (bits): 19.0
+    LPG:
+      Order: 2.0
+      Packet: 7
+      Rate: 2000
+      Word Length (bits): 1.0
+    VS1:
+      Order: 3.0
+      Packet: 7
+      Rate: 2000
+      Word Length (bits): 20.0
+018:
+  Active: 1
+  Channels: 3
+  Delay: 0
+  G. Rate: 1
+  G. Size bytes: 9
+  Granule count: 100
+  Mnemonic: TAM
+  PKT Period: 100
+  PKT Size bytes: 915
+  Packet: 8
+  Rate (Bits/s): 73.2
+  granule definition:
+    MBX:
+      Order: 1.0
+      Packet: 8
+      Rate: 1
+      Word Length (bits): 24.0
+    MBY:
+      Order: 2.0
+      Packet: 8
+      Rate: 1
+      Word Length (bits): 24.0
+    MBZ:
+      Order: 3.0
+      Packet: 8
+      Rate: 1
+      Word Length (bits): 24.0
+019:
+  Active: 1
+  Channels: 2
+  Delay: 100
+  G. Rate: 500
+  G. Size bytes: 5
+  Granule count: 512
+  Mnemonic: SIP
+  PKT Period: 100
+  PKT Size bytes: 2575
+  Packet: 9
+  Rate (Bits/s): 206.0
+  granule definition:
+    IQS:
+      Order: 2.0
+      Packet: 9
+      Rate: 500
+      Word Length (bits): 20.0
+    IiS:
+      Order: 1.0
+      Packet: 9
+      Rate: 500
+      Word Length (bits): 20.0
+01A:
+  Active: 1
+  Channels: 1
+  Delay: 0
+  G. Rate: 100
+  G. Size bytes: 3
+  Granule count: 100
+  Mnemonic: TIP
+  PKT Period: 1
+  PKT Size bytes: 315
+  Packet: 10
+  Rate (Bits/s): 2520.0
+  granule definition:
+    TFQ:
+      Order: 1.0
+      Packet: 10
+      Rate: 100
+      Word Length (bits): 24.0
+01B:
+  Active: 1
+  Channels: 6
+  Delay: 10
+  G. Rate: 100
+  G. Size bytes: 16
+  Granule count: 26
+  Mnemonic: QIP
+  PKT Period: 10
+  PKT Size bytes: 431
+  Packet: 11
+  Rate (Bits/s): 344.8
+  granule definition:
+    FM0:
+      Order: 1.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
+    FM1:
+      Order: 2.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
+    FM2:
+      Order: 3.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
+    FM3:
+      Order: 4.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
+    FM4:
+      Order: 5.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
+    TFQ:
+      Order: 1.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 24.0
+01C:
+  Active: 1
+  Channels: 16
+  Delay: 0
+  G. Rate: 12
+  G. Size bytes: 48
+  Granule count: 12
+  Mnemonic: PDS
+  PKT Period: 1
+  PKT Size bytes: 591
+  Packet: 12
+  Rate (Bits/s): 4728.0
+  granule definition:
+    PSD1:
+      Order: 1.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD10:
+      Order: 10.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD11:
+      Order: 11.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD12:
+      Order: 12.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD13:
+      Order: 13.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD14:
+      Order: 14.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD15:
+      Order: 15.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD16:
+      Order: 16.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD2:
+      Order: 2.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD3:
+      Order: 3.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD4:
+      Order: 4.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD5:
+      Order: 5.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD6:
+      Order: 6.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD7:
+      Order: 7.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD8:
+      Order: 8.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD9:
+      Order: 9.0
+      Packet: 12
+      Rate: 12
+      Word Length (bits): 24.0
+01D:
+  Active: 1
+  Channels: 16
+  Delay: 0
+  G. Rate: 12
+  G. Size bytes: 48
+  Granule count: 12
+  Mnemonic: EFS1
+  PKT Period: 1
+  PKT Size bytes: 591
+  Packet: 13
+  Rate (Bits/s): 4728.0
+  granule definition:
+    PSD1:
+      Order: 1.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD10:
+      Order: 10.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD11:
+      Order: 11.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD12:
+      Order: 12.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD13:
+      Order: 13.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD14:
+      Order: 14.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD15:
+      Order: 15.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD16:
+      Order: 16.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD2:
+      Order: 2.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD3:
+      Order: 3.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD4:
+      Order: 4.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD5:
+      Order: 5.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD6:
+      Order: 6.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD7:
+      Order: 7.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD8:
+      Order: 8.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD9:
+      Order: 9.0
+      Packet: 13
+      Rate: 12
+      Word Length (bits): 24.0
+01E:
+  Active: 0
+  Channels: 16
+  Delay: 0
+  G. Rate: 12
+  G. Size bytes: 48
+  Granule count: 12
+  Mnemonic: EFS2
+  PKT Period: 1
+  PKT Size bytes: 591
+  Packet: 14
+  Rate (Bits/s): 4728.0
+  granule definition:
+    PSD1:
+      Order: 1.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD10:
+      Order: 10.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD11:
+      Order: 11.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD12:
+      Order: 12.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD13:
+      Order: 13.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD14:
+      Order: 14.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD15:
+      Order: 15.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD16:
+      Order: 16.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD2:
+      Order: 2.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD3:
+      Order: 3.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD4:
+      Order: 4.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD5:
+      Order: 5.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD6:
+      Order: 6.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD7:
+      Order: 7.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD8:
+      Order: 8.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD9:
+      Order: 9.0
+      Packet: 14
+      Rate: 12
+      Word Length (bits): 24.0
+01F:
+  Active: 1
+  Channels: 1
+  Delay: 1
+  G. Rate: 33333
+  G. Size bytes: 3
+  Granule count: 8192
+  Mnemonic: EFS3
+  PKT Period: 1
+  PKT Size bytes: 24591
+  Packet: 15
+  Rate (Bits/s): 196728.0
+  granule definition:
+    EFS:
+      Order: 1.0
+      Packet: 15
+      Rate: 33333
+      Word Length (bits): 18.0
+'020':
+  Active: 1
+  Channels: 16
+  Delay: 10000
+  G. Rate: 0
+  G. Size bytes: 0
+  Granule count: 1
+  Mnemonic: ECO
+  PKT Period: 10000
+  PKT Size bytes: 15
+  Packet: 16
+  Rate (Bits/s): 0.012
+  granule definition:
+    null:
+      Order: .nan
+      Packet: 16
+      Rate: 0
+      Word Length (bits): .nan
