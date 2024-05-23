@@ -3,13 +3,13 @@
   Channels: 39
   Delay: 50
   G. Rate: 2000
-  G. Size bytes: 66
+  G. Size bytes: 55
   Granule count: 1
   Mnemonic: STT
   PKT Period: 50
-  PKT Size bytes: 81
+  PKT Size bytes: 70
   Packet: 0
-  Rate (Bits/s): 12.96
+  Rate (Bits/s): 11.2
   granule definition:
     0ADC0:
       Order: 3.0
@@ -112,17 +112,17 @@
       Rate: 2000
       Word Length (bits): 16.0
     4ADC1:
-      Order: 24.0
+      Order: 23.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 16.0
     4ADC2:
-      Order: 25.0
+      Order: 24.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 16.0
     4ADCT:
-      Order: 27.0
+      Order: 25.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 16.0
@@ -137,75 +137,75 @@
       Rate: 2000
       Word Length (bits): 16.0
     PAC:
-      Order: 28.0
+      Order: 26.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 8.0
     PCFC:
-      Order: 30.0
+      Order: 28.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 8.0
     PHFC:
-      Order: 29.0
+      Order: 27.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 8.0
     TBD1:
-      Order: 31.0
+      Order: 29.0
       Packet: 0
       Rate: 2000
-      Word Length (bits): 8.0
+      Word Length (bits): 0.0
     TBD10:
-      Order: 40.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD11:
-      Order: 41.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD2:
-      Order: 32.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD3:
-      Order: 33.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD4:
-      Order: 34.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD5:
-      Order: 35.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD6:
-      Order: 36.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD7:
-      Order: 37.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 8.0
-    TBD8:
       Order: 38.0
       Packet: 0
       Rate: 2000
-      Word Length (bits): 8.0
-    TBD9:
+      Word Length (bits): 0.0
+    TBD11:
       Order: 39.0
       Packet: 0
       Rate: 2000
-      Word Length (bits): 8.0
+      Word Length (bits): 0.0
+    TBD2:
+      Order: 30.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
+    TBD3:
+      Order: 31.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
+    TBD4:
+      Order: 32.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
+    TBD5:
+      Order: 33.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
+    TBD6:
+      Order: 34.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
+    TBD7:
+      Order: 35.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
+    TBD8:
+      Order: 36.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
+    TBD9:
+      Order: 37.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 0.0
 '011':
   Active: 0
   Channels: 1
@@ -219,7 +219,7 @@
   Packet: 1
   Rate (Bits/s): 2520.0
   granule definition:
-    V1S:
+    null:
       Order: 1.0
       Packet: 1
       Rate: 100
@@ -270,7 +270,7 @@
       Packet: 3
       Rate: 100
       Word Length (bits): 20.0
-    V3S:
+    null:
       Order: 3.0
       Packet: 3
       Rate: 100
