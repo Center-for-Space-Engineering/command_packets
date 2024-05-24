@@ -219,7 +219,7 @@
   Packet: 1
   Rate (Bits/s): 2520.0
   granule definition:
-    null:
+    V1S:
       Order: 1.0
       Packet: 1
       Rate: 100
@@ -270,7 +270,7 @@
       Packet: 3
       Rate: 100
       Word Length (bits): 20.0
-    null:
+    VS3:
       Order: 3.0
       Packet: 3
       Rate: 100
@@ -465,27 +465,27 @@
   Rate (Bits/s): 344.8
   granule definition:
     FM0:
-      Order: 1.0
-      Packet: 11
-      Rate: 100
-      Word Length (bits): 20.0
-    FM1:
       Order: 2.0
       Packet: 11
       Rate: 100
       Word Length (bits): 20.0
-    FM2:
+    FM1:
       Order: 3.0
       Packet: 11
       Rate: 100
       Word Length (bits): 20.0
-    FM3:
+    FM2:
       Order: 4.0
       Packet: 11
       Rate: 100
       Word Length (bits): 20.0
-    FM4:
+    FM3:
       Order: 5.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
+    FM4:
+      Order: 6.0
       Packet: 11
       Rate: 100
       Word Length (bits): 20.0
