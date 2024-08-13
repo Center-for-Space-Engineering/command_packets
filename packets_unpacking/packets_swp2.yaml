@@ -392,7 +392,7 @@
       Packet: 7
       Rate: 2000
       Word Length (bits): 20.0
-018:
+'018':
   Active: 1
   Channels: 3
   Delay: 0
@@ -420,7 +420,7 @@
       Packet: 8
       Rate: 1
       Word Length (bits): 24.0
-019:
+'019':
   Active: 1
   Channels: 2
   Delay: 100
@@ -443,7 +443,7 @@
       Packet: 9
       Rate: 500
       Word Length (bits): 20.0
-01A:
+'01A':
   Active: 1
   Channels: 1
   Delay: 0
@@ -461,7 +461,7 @@
       Packet: 10
       Rate: 100
       Word Length (bits): 24.0
-01B:
+'01B':
   Active: 1
   Channels: 6
   Delay: 10
@@ -504,7 +504,7 @@
       Packet: 11
       Rate: 100
       Word Length (bits): 24.0
-01C:
+'01C':
   Active: 1
   Channels: 16
   Delay: 0
@@ -597,7 +597,7 @@
       Packet: 12
       Rate: 12
       Word Length (bits): 24.0
-01D:
+'01D':
   Active: 1
   Channels: 16
   Delay: 0
@@ -690,7 +690,7 @@
       Packet: 13
       Rate: 12
       Word Length (bits): 24.0
-01E:
+'01E':
   Active: 0
   Channels: 16
   Delay: 0
@@ -783,7 +783,7 @@
       Packet: 14
       Rate: 12
       Word Length (bits): 24.0
-01F:
+'01F':
   Active: 1
   Channels: 1
   Delay: 1
