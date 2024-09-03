@@ -1,15 +1,15 @@
 '040':
   Active: 1
-  Channels: 38
+  Channels: 37
   Delay: 50
   G. Rate: 2000
-  G. Size bytes: 59.0
+  G. Size bytes: 62
   Granule count: 1
   Mnemonic: STTA
   PKT Period: 50
-  PKT Size bytes: 74
+  PKT Size bytes: 77
   Packet: 0
-  Rate (Bits/s): 11.84
+  Rate (Bits/s): 12.32
   granule definition:
     1ADC0:
       Order: 5.0
@@ -111,13 +111,38 @@
       Packet: 0
       Rate: 2000
       Word Length (bits): 16.0
-    MODE1:
-      Order: 29.0
+    H1S:
+      Order: 30.0
       Packet: 0
       Rate: 2000
-      Word Length (bits): 8.0
-    MODE2:
-      Order: 30.0
+      Word Length (bits): 4.0
+    H2S:
+      Order: 31.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 4.0
+    H3S:
+      Order: 32.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 4.0
+    H4S:
+      Order: 33.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 4.0
+    H5S:
+      Order: 34.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 4.0
+    H6S:
+      Order: 35.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 4.0
+    MODE1:
+      Order: 29.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 8.0
@@ -156,43 +181,13 @@
       Packet: 0
       Rate: 2000
       Word Length (bits): 16.0
-    TBD10:
-      Order: 37.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 0.0
-    TBD11:
-      Order: 38.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 0.0
-    TBD4:
-      Order: 31.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 0.0
-    TBD5:
-      Order: 32.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 0.0
-    TBD6:
-      Order: 33.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 0.0
-    TBD7:
-      Order: 34.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 0.0
-    TBD8:
-      Order: 35.0
-      Packet: 0
-      Rate: 2000
-      Word Length (bits): 0.0
-    TBD9:
+    REG_5V:
       Order: 36.0
+      Packet: 0
+      Rate: 2000
+      Word Length (bits): 8.0
+    TBD11:
+      Order: 37.0
       Packet: 0
       Rate: 2000
       Word Length (bits): 0.0
@@ -201,3 +196,258 @@
       Packet: 0
       Rate: 2000
       Word Length (bits): 8.0
+'041':
+  Active: 1
+  Channels: 5
+  Delay: 0
+  G. Rate: 1
+  G. Size bytes: 12
+  Granule count: 10
+  Mnemonic: AOP
+  PKT Period: 10
+  PKT Size bytes: 135
+  Packet: 1
+  Rate (Bits/s): 108.0
+  granule definition:
+    AO1:
+      Order: 1.0
+      Packet: 1
+      Rate: 1
+      Word Length (bits): 20.0
+    AO1T:
+      Order: 3.0
+      Packet: 1
+      Rate: 1
+      Word Length (bits): 16.0
+    AO2:
+      Order: 2.0
+      Packet: 1
+      Rate: 1
+      Word Length (bits): 20.0
+    AO2T:
+      Order: 4.0
+      Packet: 1
+      Rate: 1
+      Word Length (bits): 16.0
+    RIC:
+      Order: 5.0
+      Packet: 1
+      Rate: 1
+      Word Length (bits): 24.0
+'042':
+  Active: 1
+  Channels: 1
+  Delay: 0
+  G. Rate: 100
+  G. Size bytes: 3
+  Granule count: 100
+  Mnemonic: FBPI
+  PKT Period: 1
+  PKT Size bytes: 315
+  Packet: 2
+  Rate (Bits/s): 2520.0
+  granule definition:
+    DCI:
+      Order: 1.0
+      Packet: 2
+      Rate: 100
+      Word Length (bits): 24.0
+'043':
+  Active: 1
+  Channels: 15
+  Delay: 0
+  G. Rate: 1
+  G. Size bytes: 45
+  Granule count: 10
+  Mnemonic: TAMA
+  PKT Period: 10
+  PKT Size bytes: 465
+  Packet: 3
+  Rate (Bits/s): 372.0
+  granule definition:
+    BE1X:
+      Order: 4.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE1Y:
+      Order: 5.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE1Z:
+      Order: 6.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE2X:
+      Order: 7.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE2Y:
+      Order: 8.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE2Z:
+      Order: 9.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE3X:
+      Order: 10.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE3Y:
+      Order: 11.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BE3Z:
+      Order: 12.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BEUX:
+      Order: 1.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BEUY:
+      Order: 2.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BEUZ:
+      Order: 3.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BIX:
+      Order: 13.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BIY:
+      Order: 14.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+    BIZ:
+      Order: 15.0
+      Packet: 3
+      Rate: 1
+      Word Length (bits): 24.0
+'044':
+  Active: 1
+  Channels: 16
+  Delay: 0
+  G. Rate: 12
+  G. Size bytes: 48
+  Granule count: 12
+  Mnemonic: PDSI
+  PKT Period: 1
+  PKT Size bytes: 591
+  Packet: 4
+  Rate (Bits/s): 4728.0
+  granule definition:
+    PSD1:
+      Order: 1.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD10:
+      Order: 10.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD11:
+      Order: 11.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD12:
+      Order: 12.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD13:
+      Order: 13.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD14:
+      Order: 14.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD15:
+      Order: 15.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD16:
+      Order: 16.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD2:
+      Order: 2.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD3:
+      Order: 3.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD4:
+      Order: 4.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD5:
+      Order: 5.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD6:
+      Order: 6.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD7:
+      Order: 7.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD8:
+      Order: 8.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+    PSD9:
+      Order: 9.0
+      Packet: 4
+      Rate: 12
+      Word Length (bits): 24.0
+'045':
+  Active: 1
+  Channels: 16
+  Delay: 10000
+  G. Rate: 0
+  G. Size bytes: 0
+  Granule count: 1
+  Mnemonic: ECOA
+  PKT Period: 10000
+  PKT Size bytes: 15
+  Packet: 5
+  Rate (Bits/s): 0.012
+  granule definition:
+    null:
+      Order: .nan
+      Packet: 5
+      Rate: 0
+      Word Length (bits): .nan
