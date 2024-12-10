@@ -466,44 +466,29 @@
   Channels: 6
   Delay: 10
   G. Rate: 100
-  G. Size bytes: 16
-  Granule count: 26
+  G. Size bytes: 8
+  Granule count: 50
   Mnemonic: QIP
   PKT Period: 10
   PKT Size bytes: 431
   Packet: 11
   Rate (Bits/s): 344.8
   granule definition:
-    FM0:
-      Order: 2.0
-      Packet: 11
-      Rate: 100
-      Word Length (bits): 20.0
-    FM1:
-      Order: 3.0
-      Packet: 11
-      Rate: 100
-      Word Length (bits): 20.0
-    FM2:
-      Order: 4.0
-      Packet: 11
-      Rate: 100
-      Word Length (bits): 20.0
-    FM3:
-      Order: 5.0
-      Packet: 11
-      Rate: 100
-      Word Length (bits): 20.0
-    FM4:
-      Order: 6.0
-      Packet: 11
-      Rate: 100
-      Word Length (bits): 20.0
     TFQ:
       Order: 1.0
       Packet: 11
       Rate: 100
       Word Length (bits): 24.0
+    IiQ:
+      Order: 2.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
+    IQQ:
+      Order: 3.0
+      Packet: 11
+      Rate: 100
+      Word Length (bits): 20.0
 '01C':
   Active: 1
   Channels: 16
@@ -819,3 +804,26 @@
       Packet: 16
       Rate: 0
       Word Length (bits): .nan
+      '021':
+  Active: 1
+  Channels: 2
+  Delay: 100
+  G. Rate: 500
+  G. Size bytes: 5
+  Granule count: 600
+  Mnemonic: LIP
+  PKT Period: 100
+  PKT Size bytes: 2575
+  Packet: 9
+  Rate (Bits/s): 206.0
+  granule definition:
+    IiS:
+      Order: 1.0
+      Packet: 17
+      Rate: 500
+      Word Length (bits): 20.0
+    IQS:
+      Order: 2.0
+      Packet: 17
+      Rate: 500
+      Word Length (bits): 20.0

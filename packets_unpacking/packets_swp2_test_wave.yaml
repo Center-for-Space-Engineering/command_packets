@@ -467,7 +467,7 @@
   Delay: 10
   G. Rate: 100
   G. Size bytes: 8
-  Granule count: 25
+  Granule count: 50
   Mnemonic: QIP
   PKT Period: 10
   PKT Size bytes: 431
@@ -827,3 +827,13 @@
       Packet: 17
       Rate: 500
       Word Length (bits): 20.0
+    # IQS:
+    #   Order: 2.0
+    #   Packet: 17
+    #   Rate: 500
+    #   Word Length (bits): 10.0
+    # IQS_1:
+    #   Order: 2.0
+    #   Packet: 17
+    #   Rate: 500
+    #   Word Length (bits): 10.0
