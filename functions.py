@@ -20,7 +20,7 @@ def ccsds_crc16(data : bytearray):
                 crc = crc << 1
     return crc & 0xFFFF
 
-def FBP_calibrated_dac_code(voltage : float)
+def FBP_calibrated_dac_code(voltage : float):
     '''
         Converts desired voltage to a calibrated DAC word for the FBP
     '''
@@ -28,8 +28,10 @@ def FBP_calibrated_dac_code(voltage : float)
     FBP_offset = 32772.41705613722
     calibrated_dac_code = int(round(voltage*FBP_Gain + FBP_offset,0))
     calibrated_dac_code = max(0,min(calibrated_dac_code,(2**(16))-1))
+    
+    return calibrated_dac_code
 
-def SLP_calibrated_dac_code(voltage : float)
+def SLP_calibrated_dac_code(voltage : float):
     '''
         Converts desired voltage to a calibrated SLP word for the FBP
     '''
@@ -37,3 +39,5 @@ def SLP_calibrated_dac_code(voltage : float)
     SLP_offset = 32767.59380278144
     calibrated_dac_code = int(round(voltage*SLP_Gain + SLP_offset,0))
     calibrated_dac_code = max(0,min(calibrated_dac_code,(2**(16))-1))
+
+    return calibrated_dac_code
