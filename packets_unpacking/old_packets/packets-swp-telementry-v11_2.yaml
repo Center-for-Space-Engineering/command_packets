@@ -1,0 +1,1386 @@
+'010':
+  Active: 1
+  Channels: 41
+  Delay: 50.0
+  G. Rate: 2000.0
+  G. Size bytes: 65
+  Granule count: 1
+  Mnemonic: STT
+  PKT Period: 50.0
+  PKT Size bytes: 80
+  Packet: 0
+  Rate (Bits/s): 12.8
+  granule definition:
+    0ADC0:
+      Order: 5
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    0ADC1:
+      Order: 6
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    0ADC2:
+      Order: 7
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    0ADC3:
+      Order: 8
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    0ADCT:
+      Order: 9
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    1ADC0:
+      Order: 10
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    1ADC1:
+      Order: 11
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    1ADC2:
+      Order: 12
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    1ADC3:
+      Order: 13
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    1ADCT:
+      Order: 14
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    2ADC0:
+      Order: 15
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    2ADC1:
+      Order: 16
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    2ADC2:
+      Order: 17
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    2ADC3:
+      Order: 18
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    2ADCT:
+      Order: 19
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    3ADC0:
+      Order: 20
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    3ADC1:
+      Order: 21
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    3ADC2:
+      Order: 22
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    3ADC3:
+      Order: 23
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    3ADCT:
+      Order: 24
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    4ADC1:
+      Order: 25
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    4ADC2:
+      Order: 26
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    4ADCT:
+      Order: 27
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    CAL:
+      Order: 34
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    MODE1:
+      Order: 32
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 8
+    MODE2:
+      Order: 33
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 8
+    PAC:
+      Order: 28
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 8
+    PCFC:
+      Order: 30
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 8
+    PHFC:
+      Order: 29
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 8
+    PPSM:
+      Order: 2
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 32
+    PPSR:
+      Order: 4
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 24
+    PPSS:
+      Order: 3
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 32
+    PPSW:
+      Order: 1
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    TBD10:
+      Order: 40
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    TBD11:
+      Order: 41
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    TBD5:
+      Order: 35
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    TBD6:
+      Order: 36
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    TBD7:
+      Order: 37
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    TBD8:
+      Order: 38
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    TBD9:
+      Order: 39
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 0
+    VERS:
+      Order: 31
+      Packet: 0
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 8
+'011':
+  Active: 0
+  Channels: 1
+  Delay: 0.0
+  G. Rate: 100.0
+  G. Size bytes: 3
+  Granule count: 100
+  Mnemonic: FPP1
+  PKT Period: 1.0
+  PKT Size bytes: 315
+  Packet: 1
+  Rate (Bits/s): 2520.0
+  granule definition:
+    V1S:
+      Order: 1
+      Packet: 1
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+'012':
+  Active: 0
+  Channels: 2
+  Delay: 0.0
+  G. Rate: 100.0
+  G. Size bytes: 5
+  Granule count: 100
+  Mnemonic: FPP2
+  PKT Period: 1.0
+  PKT Size bytes: 515
+  Packet: 2
+  Rate (Bits/s): 4120.0
+  granule definition:
+    V1S:
+      Order: 1
+      Packet: 2
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    V2S:
+      Order: 2
+      Packet: 2
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+'013':
+  Active: 0
+  Channels: 3
+  Delay: 0.0
+  G. Rate: 100.0
+  G. Size bytes: 8
+  Granule count: 100
+  Mnemonic: FPP3
+  PKT Period: 1.0
+  PKT Size bytes: 815
+  Packet: 3
+  Rate (Bits/s): 6520.0
+  granule definition:
+    V1S:
+      Order: 1
+      Packet: 3
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    V2S:
+      Order: 2
+      Packet: 3
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    V3S:
+      Order: 3
+      Packet: 3
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+'014':
+  Active: 1
+  Channels: 4
+  Delay: 0.0
+  G. Rate: 100.0
+  G. Size bytes: 10
+  Granule count: 100
+  Mnemonic: FPP4
+  PKT Period: 1.0
+  PKT Size bytes: 1015
+  Packet: 4
+  Rate (Bits/s): 8120.0
+  granule definition:
+    V1S:
+      Order: 1
+      Packet: 4
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    V2S:
+      Order: 2
+      Packet: 4
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    V3S:
+      Order: 3
+      Packet: 4
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    V4S:
+      Order: 4
+      Packet: 4
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+'015':
+  Active: 1
+  Channels: 1
+  Delay: 0.0
+  G. Rate: 100.0
+  G. Size bytes: 3
+  Granule count: 100
+  Mnemonic: FBP
+  PKT Period: 1.0
+  PKT Size bytes: 315
+  Packet: 5
+  Rate (Bits/s): 2520.0
+  granule definition:
+    DCP:
+      Order: 1
+      Packet: 5
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 24
+'016':
+  Active: 1
+  Channels: 3
+  Delay: 100.0
+  G. Rate: 2000.0
+  G. Size bytes: 5
+  Granule count: 1052
+  Mnemonic: SLP
+  PKT Period: 100.0
+  PKT Size bytes: 5275
+  Packet: 6
+  Rate (Bits/s): 422.0
+  granule definition:
+    LPC:
+      Order: 1
+      Packet: 6
+      Rate: 2000.0
+      Signed: true
+      Word Length (bits): 19
+    LPG:
+      Order: 2
+      Packet: 6
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 1
+    VS1:
+      Order: 3
+      Packet: 6
+      Rate: 2000.0
+      Signed: true
+      Word Length (bits): 20
+'017':
+  Active: 1
+  Channels: 4
+  Delay: 1.0
+  G. Rate: 2000.0
+  G. Size bytes: 7
+  Granule count: 32
+  Mnemonic: FLP
+  PKT Period: 1.0
+  PKT Size bytes: 239
+  Packet: 7
+  Rate (Bits/s): 1912.0
+  granule definition:
+    FDW:
+      Order: 4
+      Packet: 7
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 16
+    LPC:
+      Order: 1
+      Packet: 7
+      Rate: 2000.0
+      Signed: true
+      Word Length (bits): 19
+    LPG:
+      Order: 2
+      Packet: 7
+      Rate: 2000.0
+      Signed: false
+      Word Length (bits): 1
+    VS1:
+      Order: 3
+      Packet: 7
+      Rate: 2000.0
+      Signed: true
+      Word Length (bits): 20
+018:
+  Active: 1
+  Channels: 3
+  Delay: 0.0
+  G. Rate: 1.0
+  G. Size bytes: 9
+  Granule count: 100
+  Mnemonic: TAM
+  PKT Period: 100.0
+  PKT Size bytes: 915
+  Packet: 8
+  Rate (Bits/s): 73.2
+  granule definition:
+    MBX:
+      Order: 1
+      Packet: 8
+      Rate: 1.0
+      Signed: true
+      Word Length (bits): 24
+    MBY:
+      Order: 2
+      Packet: 8
+      Rate: 1.0
+      Signed: true
+      Word Length (bits): 24
+    MBZ:
+      Order: 3
+      Packet: 8
+      Rate: 1.0
+      Signed: true
+      Word Length (bits): 24
+019:
+  Active: 1
+  Channels: 2
+  Delay: 100.0
+  G. Rate: 500.0
+  G. Size bytes: 5
+  Granule count: 512
+  Mnemonic: SIP
+  PKT Period: 100.0
+  PKT Size bytes: 2575
+  Packet: 9
+  Rate (Bits/s): 206.0
+  granule definition:
+    IQS:
+      Order: 2
+      Packet: 9
+      Rate: 500.0
+      Signed: true
+      Word Length (bits): 20
+    IiS:
+      Order: 1
+      Packet: 9
+      Rate: 500.0
+      Signed: true
+      Word Length (bits): 20
+01A:
+  Active: 1
+  Channels: 1
+  Delay: 0.0
+  G. Rate: 100.0
+  G. Size bytes: 3
+  Granule count: 100
+  Mnemonic: TIP
+  PKT Period: 1.0
+  PKT Size bytes: 315
+  Packet: 10
+  Rate (Bits/s): 2520.0
+  granule definition:
+    TFQ:
+      Order: 1
+      Packet: 10
+      Rate: 100.0
+      Signed: false
+      Word Length (bits): 24
+01B:
+  Active: 1
+  Channels: 3
+  Delay: 10.0
+  G. Rate: 100.0
+  G. Size bytes: 8
+  Granule count: 25
+  Mnemonic: QIP
+  PKT Period: 10.0
+  PKT Size bytes: 215
+  Packet: 11
+  Rate (Bits/s): 172.0
+  granule definition:
+    IQQ:
+      Order: 3
+      Packet: 11
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    IiQ:
+      Order: 2
+      Packet: 11
+      Rate: 100.0
+      Signed: true
+      Word Length (bits): 20
+    TFQ:
+      Order: 1
+      Packet: 11
+      Rate: 100.0
+      Signed: false
+      Word Length (bits): 24
+01C:
+  Active: 1
+  Channels: 16
+  Delay: 0.0
+  G. Rate: 12.0
+  G. Size bytes: 48
+  Granule count: 12
+  Mnemonic: PDS
+  PKT Period: 1.0
+  PKT Size bytes: 591
+  Packet: 12
+  Rate (Bits/s): 4728.0
+  granule definition:
+    PSD1:
+      Order: 1
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD10:
+      Order: 10
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD11:
+      Order: 11
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD12:
+      Order: 12
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD13:
+      Order: 13
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD14:
+      Order: 14
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD15:
+      Order: 15
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD16:
+      Order: 16
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD2:
+      Order: 2
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD3:
+      Order: 3
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD4:
+      Order: 4
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD5:
+      Order: 5
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD6:
+      Order: 6
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD7:
+      Order: 7
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD8:
+      Order: 8
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD9:
+      Order: 9
+      Packet: 12
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+01D:
+  Active: 1
+  Channels: 16
+  Delay: 0.0
+  G. Rate: 12.0
+  G. Size bytes: 48
+  Granule count: 12
+  Mnemonic: EFS1
+  PKT Period: 1.0
+  PKT Size bytes: 591
+  Packet: 13
+  Rate (Bits/s): 4728.0
+  granule definition:
+    PSD1:
+      Order: 1
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD10:
+      Order: 10
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD11:
+      Order: 11
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD12:
+      Order: 12
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD13:
+      Order: 13
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD14:
+      Order: 14
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD15:
+      Order: 15
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD16:
+      Order: 16
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD2:
+      Order: 2
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD3:
+      Order: 3
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD4:
+      Order: 4
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD5:
+      Order: 5
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD6:
+      Order: 6
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD7:
+      Order: 7
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD8:
+      Order: 8
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD9:
+      Order: 9
+      Packet: 13
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+01E:
+  Active: 0
+  Channels: 16
+  Delay: 0.0
+  G. Rate: 12.0
+  G. Size bytes: 48
+  Granule count: 12
+  Mnemonic: EFS2
+  PKT Period: 1.0
+  PKT Size bytes: 591
+  Packet: 14
+  Rate (Bits/s): 4728.0
+  granule definition:
+    PSD1:
+      Order: 1
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD10:
+      Order: 10
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD11:
+      Order: 11
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD12:
+      Order: 12
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD13:
+      Order: 13
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD14:
+      Order: 14
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD15:
+      Order: 15
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD16:
+      Order: 16
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD2:
+      Order: 2
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD3:
+      Order: 3
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD4:
+      Order: 4
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD5:
+      Order: 5
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD6:
+      Order: 6
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD7:
+      Order: 7
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD8:
+      Order: 8
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+    PSD9:
+      Order: 9
+      Packet: 14
+      Rate: 12.0
+      Signed: false
+      Word Length (bits): 24
+01F:
+  Active: 1
+  Channels: 1
+  Delay: 1.0
+  G. Rate: 33333.0
+  G. Size bytes: 4
+  Granule count: 8188
+  Mnemonic: EFS3
+  PKT Period: 1.0
+  PKT Size bytes: 32767
+  Packet: 15
+  Rate (Bits/s): 262136.0
+  granule definition:
+    EFS:
+      Order: 1
+      Packet: 15
+      Rate: 33333.0
+      Signed: false
+      Word Length (bits): 32
+'020':
+  Active: 1
+  Channels: 73
+  Delay: 1800.0
+  G. Rate: 0.0
+  G. Size bytes: 143
+  Granule count: 1
+  Mnemonic: ECO
+  PKT Period: 1800.0
+  PKT Size bytes: 158
+  Packet: 16
+  Rate (Bits/s): 0.7022222222222222
+  granule definition:
+    EFS1_Bin0:
+      Order: 40
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin1:
+      Order: 41
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin10:
+      Order: 50
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin11:
+      Order: 51
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin12:
+      Order: 52
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin13:
+      Order: 53
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin14:
+      Order: 54
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin15:
+      Order: 55
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin2:
+      Order: 42
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin3:
+      Order: 43
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin4:
+      Order: 44
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin5:
+      Order: 45
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin6:
+      Order: 46
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin7:
+      Order: 47
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin8:
+      Order: 48
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_Bin9:
+      Order: 49
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS1_DG:
+      Order: 56
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    EFS2_Bin0:
+      Order: 57
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin1:
+      Order: 58
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin10:
+      Order: 67
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin11:
+      Order: 68
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin12:
+      Order: 69
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin13:
+      Order: 70
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin14:
+      Order: 71
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin15:
+      Order: 72
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin2:
+      Order: 59
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin3:
+      Order: 60
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin4:
+      Order: 61
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin5:
+      Order: 62
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin6:
+      Order: 63
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin7:
+      Order: 64
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin8:
+      Order: 65
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_Bin9:
+      Order: 66
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    EFS2_DG:
+      Order: 73
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    FBP_DAC_Word:
+      Order: 2
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    FBP_DG:
+      Order: 1
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    FLP_Rate:
+      Order: 3
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    IP_Amplitude_Calibration:
+      Order: 21
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    IP_Coarse_Delay:
+      Order: 20
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    IP_Fine_Phase_Calibration:
+      Order: 22
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 32
+    IP_Freq:
+      Order: 19
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 24
+    IP_Man:
+      Order: 17
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    IP_Step:
+      Order: 18
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin0:
+      Order: 23
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin1:
+      Order: 24
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin10:
+      Order: 33
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin11:
+      Order: 34
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin12:
+      Order: 35
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin13:
+      Order: 36
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin14:
+      Order: 37
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin15:
+      Order: 38
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin2:
+      Order: 25
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin3:
+      Order: 26
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin4:
+      Order: 27
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin5:
+      Order: 28
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin6:
+      Order: 29
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin7:
+      Order: 30
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin8:
+      Order: 31
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_Bin9:
+      Order: 32
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    PDS_DG:
+      Order: 39
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    QIP_Q:
+      Order: 9
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    SIP_L:
+      Order: 11
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    SIP_S:
+      Order: 10
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    SLP_DAC_Man:
+      Order: 6
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    SLP_Gain_Man:
+      Order: 8
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    SLP_Man:
+      Order: 5
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    SLP_Rate:
+      Order: 4
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 8
+    SLP_Step_Man:
+      Order: 7
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 16
+    TIP_Freq_Init:
+      Order: 14
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 24
+    TIP_Freq_lim1:
+      Order: 12
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 24
+    TIP_Freq_lim2:
+      Order: 13
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 24
+    TIP_Gain1:
+      Order: 15
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 32
+    TIP_Gain2:
+      Order: 16
+      Packet: 16
+      Rate: 0.0
+      Signed: false
+      Word Length (bits): 32
+'021':
+  Active: 1
+  Channels: 2
+  Delay: 1000.0
+  G. Rate: 1.0
+  G. Size bytes: 5
+  Granule count: 600
+  Mnemonic: LIP
+  PKT Period: 1000.0
+  PKT Size bytes: 3015
+  Packet: 17
+  Rate (Bits/s): 24.12
+  granule definition:
+    IQS:
+      Order: 2
+      Packet: 17
+      Rate: 1.0
+      Signed: true
+      Word Length (bits): 20
+    IiS:
+      Order: 1
+      Packet: 17
+      Rate: 1.0
+      Signed: true
+      Word Length (bits): 20
