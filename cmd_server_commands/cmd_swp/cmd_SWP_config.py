@@ -5,7 +5,7 @@ import time
 
 from commandParent import commandParent # pylint: disable=e0401
 from command_packets.functions import ccsds_crc16 # pylint: disable=e0401
-import system_constants # pylint: disable=e0401
+from command_packets.cmd_server_commands.cmd_swp import swp_constants as system_constants # pylint: disable=e0401
 
 #import DTO for communicating internally
 from logging_system_display_python_api.DTOs.print_message_dto import print_message_dto # pylint: disable=e0401
@@ -53,6 +53,7 @@ class cmd_SWP_config(commandParent):
                 [1:] ARGS that the function needs. NOTE: can be blank
         '''
         # print(f"ran command {str(args[0])} with args {str(args[1:])}")
+        message = ""
         try:
             message = self.__args[args[0]](args)
             dto = print_message_dto(message)
@@ -132,16 +133,16 @@ class cmd_SWP_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran manSIP")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command manSIP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command manSIP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def manSLP(self, args):
         '''
@@ -206,16 +207,16 @@ class cmd_SWP_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran manSLP")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command manSLP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command manSLP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def cfgFPP(self, args):
         '''
@@ -269,16 +270,16 @@ class cmd_SWP_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran cfgFPP")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command cfgFPP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command cfgFPP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def cfgFBP(self, args):
         '''
@@ -336,16 +337,16 @@ class cmd_SWP_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran cfgFBP")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command cfgFBP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command cfgFBP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def cfgSLP(self, args):
         '''
@@ -399,16 +400,16 @@ class cmd_SWP_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran cfgSLP")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command cfgSLP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command cfgSLP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
         
     # def cfgSIP(self, args):
     #     '''
@@ -464,17 +465,17 @@ class cmd_SWP_config(commandParent):
     #     #     return_val = self.__coms.get_return(serial_writer, request_id)
     #     # self.__packet_count += 1
 
-    #     try:
-    #         bin_file = open("host/packet_data.bin", 'a')
-    #         bin_file.write(self.__packet_bytes)
-    #         return_val = "successfully"
-    #     except Exception :
-    #         return_val = Exception
+        # try:
+        #     bin_file = open("packet_data.bin", 'wb+')
+        #     bin_file.write(self.__packet_bytes)
+        #     return_val = "successful"
+        # except Exception as e:
+        #     return_val = str(e)
 
-    #     # print("ran create_packets")
-    #     dto = print_message_dto("Ran cfgSIP")
-    #     self.__coms.print_message(dto, 2)
-    #     return f"<p>ran command cfgSIP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        # # print("ran create_packets")
+        # dto = print_message_dto("Ran cfgSIP")
+        # self.__coms.print_message(dto, 2)
+        # return f"<p>ran command cfgSIP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def cfgTIP(self, args):
         '''
@@ -536,16 +537,16 @@ class cmd_SWP_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran cfgTIP")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command cfgTIP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command cfgTIP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
 
     def cfgQIP(self, args):
         '''
@@ -599,16 +600,16 @@ class cmd_SWP_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran cfgQIP")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command cfgQIP with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command cfgQIP with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
 
     def get_args(self):
         '''
@@ -633,72 +634,72 @@ class cmd_SWP_config(commandParent):
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-manual mode-/-NCO step-/-NCO frequency-/-coarse delay-/-amplitude-/fine delay-',
-                'Description' : 'Creates an sip calibration config packet and sends it to SWP'    
+                'Description' : 'Creates an sip calibration config packet and saves it as packet_data.bin'    
                 })
             if key == 'manSLP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-manual mode-/-DAC word-/-manual step-/-gain select-',
-                'Description' : 'Creates an slp calibration config packet and sends it to SWP'    
+                'Description' : 'Creates an slp calibration config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgFPP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-Digital Gain-',
-                'Description' : 'Creates an fpp config packet and sends it to SWP'    
+                'Description' : 'Creates an fpp config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgFBP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-Digital Gain-/-DAC word-',
-                'Description' : 'Creates an fbp config packet and sends it to SWP'    
+                'Description' : 'Creates an fbp config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgSLP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-SLP_Rate-',
-                'Description' : 'Creates an slp config packet and sends it to SWP'    
+                'Description' : 'Creates an slp config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgFLP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-FLP_Rate-',
-                'Description' : 'Creates an flp config packet and sends it to SWP'    
+                'Description' : 'Creates an flp config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgPDS':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-PDS_Bins-/-PDS_DG-',
-                'Description' : 'Creates an pds config packet and sends it to SWP'    
+                'Description' : 'Creates an pds config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgEFS1':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-EFS1_Bins-/-EFS1_DG-',
-                'Description' : 'Creates an efs1 config packet and sends it to SWP'    
+                'Description' : 'Creates an efs1 config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgEFS2':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-EFS2_Bins-/-EFS2_DG-',
-                'Description' : 'Creates an efs2 config packet and sends it to SWP'    
+                'Description' : 'Creates an efs2 config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgSIP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-SIP sweep rate-/-LIP sweep rate-',
-                'Description' : 'Creates an sip config packet and sends it to SWP'    
+                'Description' : 'Creates an sip config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgTIP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-freq limit 1-/-freq limit 2-/-initial freq-/-TIP gain 1-/-TIP gain 2-',
-                'Description' : 'Creates an tip config packet and sends it to SWP'    
+                'Description' : 'Creates an tip config packet and saves it as packet_data.bin'    
                 })
             if key == 'cfgQIP':
                 message.append({ 
                 'Name' : key,
                 'Path' : f'/{self.__commandName}/{key}/-QIP rate-',
-                'Description' : 'Creates an qip config packet and sends it to SWP'    
+                'Description' : 'Creates an qip config packet and saves it as packet_data.bin'    
                 })
         return message

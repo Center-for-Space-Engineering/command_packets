@@ -5,7 +5,7 @@ import time
 
 from commandParent import commandParent # pylint: disable=e0401
 from command_packets.functions import ccsds_crc16 # pylint: disable=e0401
-import system_constants # pylint: disable=e0401
+from command_packets.cmd_server_commands.cmd_swp import swp_constants as system_constants # pylint: disable=e0401
 
 #import DTO for communicating internally
 from logging_system_display_python_api.DTOs.print_message_dto import print_message_dto # pylint: disable=e0401
@@ -45,6 +45,7 @@ class cmd_PDS_config(commandParent):
                 [1:] ARGS that the function needs. NOTE: can be blank
         '''
         # print(f"ran command {str(args[0])} with args {str(args[1:])}")
+        message = ""
         try:
             message = self.__args[args[0]](args)
             dto = print_message_dto(message)
@@ -107,16 +108,16 @@ class cmd_PDS_config(commandParent):
         # self.__packet_count += 1
 
         try:
-            bin_file = open("host/packet_data.bin", 'a')
+            bin_file = open("packet_data.bin", 'wb+')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
-        except Exception :
-            return_val = Exception
+            return_val = "successful"
+        except Exception as e:
+            return_val = str(e)
 
         # print("ran create_packets")
         dto = print_message_dto("Ran pds_config")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command pds_config with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command pds_config with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     def get_args(self):
         '''
             This function returns an html obj that explains the args for all the internal
