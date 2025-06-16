@@ -114,14 +114,14 @@ class cmd_AOP_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran AOPDAC_config")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command AOPDAC_config with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command AOPDAC_config with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def AOPPI_config(self, args):
         '''
@@ -179,14 +179,14 @@ class cmd_AOP_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran AOPPI_config")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command AOPPI_config with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command AOPPI_config with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def AOPT_config(self, args):
         '''
@@ -243,14 +243,14 @@ class cmd_AOP_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran AOPT_config")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command AOPT_config with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command AOPT_config with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def AOPGS_config(self, args):
         '''
@@ -308,14 +308,14 @@ class cmd_AOP_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran AOPGS_config")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command AOPGS_config with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command AOPGS_config with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def get_args(self):
         '''

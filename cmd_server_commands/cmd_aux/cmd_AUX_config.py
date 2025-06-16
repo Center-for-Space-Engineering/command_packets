@@ -110,14 +110,14 @@ class cmd_AUX_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran PPS")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command PPS with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command PPS with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def REGA(self, args):
         '''
@@ -172,14 +172,14 @@ class cmd_AUX_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran REGA")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command REGA with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command REGA with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def TKA(self, args):
         '''
@@ -256,14 +256,14 @@ class cmd_AUX_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran TKA")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command TKA with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command TKA with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     def get_args(self):
         '''
             This function returns an html obj that explains the args for all the internal

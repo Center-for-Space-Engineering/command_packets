@@ -106,14 +106,14 @@ class cmd_FBPI_config(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran FBPI_config")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command FBPI_config with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command FBPI_config with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     def get_args(self):
         '''
             This function returns an html obj that explains the args for all the internal

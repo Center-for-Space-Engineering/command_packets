@@ -128,13 +128,13 @@ class cmd_command_from_file(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(self.__packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
         
         dto = print_message_dto("Ran send_packet")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command send_packet " + return_val
+        return f"<p>ran command send_packet</p><p>{return_val}</p>"
     
     def create_and_send_packet(self, args):
         '''
@@ -195,14 +195,14 @@ class cmd_command_from_file(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran create_and_send_packet")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command create_and_send_packet with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command create_and_send_packet with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def send_mode_packet(self, args):
         '''
@@ -252,14 +252,14 @@ class cmd_command_from_file(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran send_mode_packet")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command end_mode_packet with args {str(args)}</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command end_mode_packet with args {str(args)}</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def send_idle_packet(self, _):
         '''
@@ -310,14 +310,14 @@ class cmd_command_from_file(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran send_idle_packet")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command send_idle_packet</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command send_idle_packet</p><p>{formatted_bytes}</p><p>{return_val}</p>"
     
     def request_status_packet(self, _):
         '''
@@ -368,14 +368,14 @@ class cmd_command_from_file(commandParent):
         try:
             bin_file = open("host/packet_data.bin", 'a')
             bin_file.write(packet_bytes)
-            return_val = "successfully"
+            return_val = "successful"
         except Exception :
             return_val = Exception
 
         # print("ran create_packets")
         dto = print_message_dto("Ran request_status_packet")
         self.__coms.print_message(dto, 2)
-        return f"<p>ran command request_status_packet</p><p>{formatted_bytes}</p> " + return_val
+        return f"<p>ran command request_status_packet</p><p>{formatted_bytes}</p><p>{return_val}</p>"
 
     def get_args(self):
         '''
